@@ -32,7 +32,7 @@ def my_form_post():
     result = final_model.predict(asa)
     resu2 = final_model.predict_proba(asa)
     result2 = np.max(resu2,axis = 1)
-    return jsonify({'doc':str(result),'conf':str(result2)})
+    return jsonify({'prediction':str(result),'confidence':str(result2)})
 
 if __name__ == "__main__":
     app.run(debug = True)
