@@ -12,7 +12,7 @@ I divided the data into 80-20 split for training and testing, trained the model 
 
 Still in progress:
 
-I am trying to deploy the model to a public cloud platform - AWS. For that I created an s3 bucket named "heavywatermodel" in which I added the two models "vectorizer.pkl" and "random_forest.pkl". I have successfully accessed the files from the bucket and ran the model on local machine. Now, I am currently working on deploying to AWS lambda.
+I am trying to deploy the model to a public cloud platform - AWS. For that I created an s3 bucket named "heavywatermodel" in which I added the two models "vectorizer.pkl" and "random_forest.pkl" and "upload.html" file. I have successfully accessed the files from the bucket and ran the model on local machine. Now, I am currently working on deploying to AWS lambda.
 
 Steps :
 
