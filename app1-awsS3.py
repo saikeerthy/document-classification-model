@@ -58,7 +58,7 @@ def load_model():
     global final_model
     global file_html
     
-    conn = boto.connect_s3('AKIAJU2JYX4T67BXYARQ','/6Q39YPoYMG6ddyQKZZDLyGt4NcyNwuPcu9T+Xb0')
+    conn = boto.connect_s3('ACCESS ID ','SECURITY KEY')
     bucket = conn.get_bucket(BUCKET_NAME)
     key_obj = Key(bucket)
 
