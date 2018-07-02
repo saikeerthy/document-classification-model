@@ -14,3 +14,7 @@ Still in progress:
 
 I am trying to deploy the model to a public cloud platform - AWS. For that I created an s3 bucket named "heavywatermodel" in which I added the two models "vectorizer.pkl" and "random_forest.pkl" but It is giving me an error S3ResponseError: 301 - MovedPermanently. 
 
+Steps :
+
+I created a folder and Installed virtual environment in that with python 2.7. I have installed all the needed libraries in the virtual environment. In terminal, in the path of the created folder, activate the virtual environment and run app1.py. 
+
