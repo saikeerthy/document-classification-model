@@ -17,7 +17,7 @@ PREP_FILE_NAME = 'vectorizer.pkl'
 PREP_LOCAL_PATH = PREP_FILE_NAME
 MODEL_FILE_NAME = 'random_forest.pkl'
 MODEL_LOCAL_PATH = MODEL_FILE_NAME
-AWS_S3_HOST = 's3.eu-west-1.amazonaws.com'
+AWS_S3_HOST = 's3.us-west-1.amazonaws.com'
 
 app = Flask(__name__)
 
@@ -43,8 +43,8 @@ def my_form_post():
 def load_model():
     global vectorizer
     global final_model
-    
-    conn = boto.connect_s3(host=AWS_S3_HOST)
+    # I have set access key id and secret access key to values provided by aws.
+    conn = boto.connect_s3('ACCESS KEY ID','SECRET ACCESS KEY')
     bucket = conn.get_bucket(BUCKET_NAME)
     key_obj = Key(bucket)
     key_obj.key = PREP_FILE_NAME
