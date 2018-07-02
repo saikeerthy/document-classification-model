@@ -1,7 +1,7 @@
 {
     "dev": {
         "app_function": "app1-awsS3.py", 
-        "aws_region": "us-west-2", 
+        "aws_region": "us-west-1", 
         "profile_name": "default", 
         "project_name": "lambda", 
         "runtime": "python2.7", 
