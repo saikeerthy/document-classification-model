@@ -8,7 +8,7 @@ import os
 # feature vectors path
 Vectorizer = "models/vectorizer.pkl"
 # final model path
-Model = "random_forest.pkl"
+Model = "models/random_forest.pkl"
 
 app = Flask(__name__)
 
