@@ -1,4 +1,4 @@
-# document classification model
+# Document classification model
 HeavyWater Machine Learning Problem
 
 Problem Statement:
