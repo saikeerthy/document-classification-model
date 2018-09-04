@@ -11,7 +11,10 @@ Here is a sample line:
 CANCELLATION NOTICE,641356219cbc f95d0bea231b ... [lots more words] ... 52102c70348d b32153b8b30c
 
 The first field is the document label. Everything after the comma is a space delimited set of word values.
-The dataset is included as part of this repo.
+The dataset is present here:
+
+https://drive.google.com/open?id=1JBnFsxb-FmHfvFZuOyhfML_oT-sSBx5X
+
 
 Mission:
 
