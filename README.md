@@ -30,6 +30,10 @@ Steps followed:
 
 I divided the data into 80-20 split for training and testing, trained the model using random forest classifier, then saved the models to "vectorizer.pkl" and "random_forest.pkl" using joblib. To run it as a local webservice, I created a python file app1.py in which I used flask along with REST API to send the prediction output along with confidence of prediction.
 
+Demo Video of Results I got: 
+
+https://drive.google.com/file/d/1UbwEYEVdXx_aO_CE0WIFO20zm4r6wa34/view?usp=sharing
+
 Still in progress:
 
 I am trying to deploy the model to a public cloud platform - AWS. For that I created an s3 bucket named "heavywatermodel" in which I added the two models "vectorizer.pkl" and "random_forest.pkl" and "upload.html" file. I have successfully accessed the files from the bucket and ran the model on local machine. Now, I am currently working on deploying to AWS lambda.
